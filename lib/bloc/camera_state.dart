@@ -13,3 +13,11 @@ final class CameraReady extends CameraState {
   final String? snackBarMessage;
 }
 
+CameraReady ({
+  required this.controller,
+  required this.selectedIndex,
+  required this.flashMode,
+  this.imageFile,
+  this.snackBarMessage,
+});
+
