@@ -34,9 +34,7 @@ final class CameraReady extends CameraState {
       selectedIndex: selectedIndex ?? this.selectedIndex,
       flashMode: flashMode ?? this.flashMode,
       imageFile: imageFile ?? this.imageFile,
-      snackBarMessage: clearSnackBar
-          ? null
-          : (snackBarMessage ?? this.snackBarMessage),
+      snackBarMessage: clearSnackBar ? null: (snackBarMessage ?? this.snackBarMessage),
     );
   }
 }
