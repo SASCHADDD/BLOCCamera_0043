@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 
 sealed class CameraEvent {}
 
-final class initializeCamera extends CameraEvent {}
+final class InitializeCamera extends CameraEvent {}
 
-final class SwutchCamera extends CameraEvent {}
+final class SwitchCamera extends CameraEvent {}
 
 final class ToggleFlash extends CameraEvent {}
 
